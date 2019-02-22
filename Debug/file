@@ -1,0 +1,2 @@
+#import<iostream>
+auto c=putchar;int n[10],*i,*j,k,l;main(){for(i=n;std::cin>>l;*i++=l*10)k=k<l?l:k;for(l=10,j=i;l--;c(10))for(i=n,c('|');i<j;i++)c(32),c(*i/k+(*i%k!=0)>l?35:32);for(c(43);i>n;i--)c(61),c(61);}
