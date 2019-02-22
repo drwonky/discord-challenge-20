@@ -4,6 +4,7 @@ The chart should be no more than 10 characters high, which reflects the largest 
 Example Input: 8 4 12 6
 Example Output:
 
+<pre>
 |     &#35;
 |     &#35;
 |     &#35;
@@ -15,6 +16,7 @@ Example Output:
 | &#35; &#35; &#35; &#35;
 | &#35; &#35; &#35; &#35;
 +========
+</pre>
 
 Rules:
 1. Must compile and run in ideone.com
