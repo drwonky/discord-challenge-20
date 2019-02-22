@@ -38,10 +38,7 @@ int n[10],*i,k,l;
 auto c=putchar;
 int main() {
 	for(i=n;std::cin>>l;*i++=l*10)k=k<l?l:k;
-	for(l=10;l--;c(10)) {
-		c('|');
-		for(int j:n)c(32),c(j/k+(j%k!=0)>l?35:32);
-	}
+	for(l=10;l--&&c('|');c(10))for(int j:n)c(32),c(j/k+(j%k>0)>l?35:32);
 	for(c(43);i>n;i--)c(61),c(61);
 }
 /*
